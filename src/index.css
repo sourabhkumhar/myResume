@@ -43,6 +43,12 @@
   src: local('Product Sans Black Regular'), url('../src/fonts/ProductSans-Black.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'The Suavity Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('The Suavity Regular'), url('../src/fonts/The Suavity.woff') format('woff');
+}
 
 body {
   background-color: rgb(255, 255, 255);
