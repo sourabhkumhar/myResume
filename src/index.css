@@ -1,0 +1,52 @@
+@import url(//db.onlinewebfonts.com/c/ae63d9c1e28a8cbd6e7206061484239e?family=The+Suavity);
+
+@font-face {
+  font-family: 'Product Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Bold'), url('../src/fonts/ProductSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Regular'), url('../src/fonts/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Thin Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Thin Regular'), url('../src/fonts/ProductSans-Thin.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Product Sans Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Light Regular'), url('../src/fonts/ProductSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Medium Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Regular'), url('../src/fonts/ProductSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Black Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Black Regular'), url('../src/fonts/ProductSans-Black.woff') format('woff');
+}
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: #4F596E;
+  margin: 0;
+  font-family: 'Product Sans Regular';
+}

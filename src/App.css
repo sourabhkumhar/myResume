@@ -1,0 +1,9 @@
+.topPadding {
+    padding-top: 110px;
+}
+
+@media only screen and (max-width: 990px) {
+    .topPadding {
+        padding-top: 90px;
+    }
+}

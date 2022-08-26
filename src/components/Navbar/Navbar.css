@@ -1,0 +1,85 @@
+.logo-name {
+    font-family: "The Suavity";
+    font-size: 35px;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    top:0%;
+
+    backdrop-filter: blur(5px);
+}
+
+.nav-container {
+    padding: 12px 61px;
+}
+
+.navUl {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navList {
+    list-style: none;
+    padding: 18px;
+}
+
+.navBtn {
+    list-style: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.navItem {
+    color: #4F596E;
+    text-decoration: none;
+    font-size: 20px;
+
+    line-height: normal;
+    vertical-align: baseline;
+    letter-spacing: 0.5px;
+    word-spacing: 0px;
+}
+
+.activeLi {
+    font-weight: 700;
+}
+
+.d-r-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 33, 61);
+    border: 1px solid rgb(20, 33, 61);
+
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.d-r-btn:hover {
+    background-color: transparent;
+    color: rgb(20, 33, 61);
+}
+
+@media only screen and (max-width: 990px) {
+    .navUl {
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .nav-container {
+        padding: 12px 29px;
+    }
+
+    .logo-name {
+        font-size: 30px;
+    }
+
+    .navItem {
+        font-size: 16px;
+    }
+    
+    .navBtn {
+        font-size: 16px;
+    }
+}
