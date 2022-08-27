@@ -1,13 +1,16 @@
-.logo-name {
+.logo-name{
     font-family: "The Suavity Regular";
-    font-size: 35px;
+    font-size: 55px;
+    color: #4F596E;
+}
+.logo-name:hover, .logo-name:focus {
     color: #4F596E;
 }
 
 .nav {
     width: 100%;
     position: fixed;
-    top:0%;
+    top: 0%;
 
     backdrop-filter: blur(5px);
 }
@@ -24,7 +27,7 @@
 
 .navList {
     list-style: none;
-    padding: 18px;
+    padding: 15px;
 }
 
 .navBtn {
@@ -43,6 +46,10 @@
     letter-spacing: 0.5px;
     word-spacing: 0px;
 }
+.navItem:hover {
+    font-weight: 700;
+    color: #4F596E;
+}
 
 .activeLi {
     font-weight: 700;
@@ -56,6 +63,7 @@
     padding: 15px 20px;
     border-radius: 8px;
 }
+
 .d-r-btn:hover {
     background-color: transparent;
     color: rgb(20, 33, 61);
@@ -73,13 +81,13 @@
     }
 
     .logo-name {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .navItem {
         font-size: 16px;
     }
-    
+
     .navBtn {
         font-size: 16px;
     }

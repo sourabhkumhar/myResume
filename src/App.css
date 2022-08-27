@@ -2,8 +2,38 @@
     padding-top: 110px;
 }
 
+nav {
+    z-index: 1;
+}
+
+.heading {
+    font-family: Product Sans Bold;
+    font-size: 70px;
+    color: #14213D;
+}
+
+.subHeading {
+    color: #14213D;
+}
+
+.para {
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 990px) {
     .topPadding {
         padding-top: 90px;
+    }
+    
+    .heading {
+        font-size: 50px;
+    }
+    
+    .subHeading {
+        color: #14213D;
+    }
+    
+    .para {
+        font-size: 20px;
     }
 }

@@ -4,8 +4,8 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <div className='container'>
-      <div className="row mt-5 row-1 ">
+    <div className='container mt-4'>
+      <div className="row row-1 ">
 
         <div className="col-12 col-md-6 column-1">
 
@@ -17,11 +17,13 @@ export default function Home() {
             <Social site="Instagram" />
             <Social site="Linkedin" />
             <Social site="Github" />
-            <Social site="gmail" gmail="mr.sourabhkumhar@gmail.com" />
+            <Social site="gmail" gmail="dev.sourabhkumhar@gmail.com" />
           </div>
 
           <div className='mb-5'>
-            <button className="btn myBtn">Project's Repositories</button>
+            <a className='myBtnLink' target="_blank" rel="noreferrer" href='https://github.com/sourabhkumhar?tab=repositories'>
+              <button className="btn myBtn">GitHub Repositories</button>
+            </a>
           </div>
 
         </div>
@@ -29,6 +31,13 @@ export default function Home() {
         <div className="col-12 col-md-6 column-2">
           <img className='introImg' src={process.env.PUBLIC_URL + '/images/intro.svg'} alt="intro" />
         </div>
+      </div>
+
+
+      {/* Section 2 */}
+      <div className="container mt-5">
+        <h1 className="heading text-center mb-5">What I know?</h1>
+
       </div>
     </div>
   )
