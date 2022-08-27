@@ -4,7 +4,7 @@ import Card from './Card'
 export default function Skills() {
   return (
     <>
-      <h1 className="heading text-center m-5" style={{fontSize: "20px"}}>What Do I Know?</h1>
+      <h1 className="divHeading text-center my-5">What Do I Know?</h1>
 
       <div className='row justify-content-center'>
         <h1 className="subHeading text-center ">Basics</h1>

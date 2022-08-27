@@ -12,6 +12,12 @@ nav {
     color: #14213D;
 }
 
+.divHeading {
+    font-family: Product Sans Bold;
+    font-size: 50px;
+    color: #14213D;
+}
+
 .subHeading {
     color: #14213D;
 }
@@ -35,5 +41,9 @@ nav {
     
     .para {
         font-size: 20px;
+    }
+
+    .divHeading {
+        font-size: 30px;
     }
 }
