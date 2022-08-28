@@ -33,12 +33,6 @@ export default function Home() {
         </div>
       </div>
 
-
-      {/* Section 2 */}
-      <div className="container mt-5">
-        <h1 className="heading text-center mb-5">What I know?</h1>
-
-      </div>
     </div>
   )
 }
