@@ -4,7 +4,7 @@ import './Home.css'
 
 export default function Home() {
   return (
-    <div className='container mt-4'>
+    <div className='mt-4'>
       <div className="row row-1 ">
 
         <div className="col-12 col-md-6 column-1">

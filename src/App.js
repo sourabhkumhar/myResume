@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
 
-      <div className="topPadding">
+      <div className="topPadding container">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
