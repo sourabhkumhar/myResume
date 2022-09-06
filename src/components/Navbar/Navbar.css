@@ -45,6 +45,7 @@
     vertical-align: baseline;
     letter-spacing: 0.5px;
     word-spacing: 0px;
+    cursor: pointer;
 }
 .navItem:hover {
     font-weight: 700;

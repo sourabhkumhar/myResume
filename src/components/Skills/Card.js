@@ -1,8 +1,9 @@
 import React from 'react'
+import './Skills.css'
 
 export default function Card(props) {
     return (
-        <div className="col-4 card p-0" style={{ width: "251px", margin: '10px' }}>
+        <div id={props.img} className="col-4 card p-0" style={{ width: "251px", margin: '10px' }}>
             <div className='cardBox'>
                 <img src={process.env.PUBLIC_URL + `/images/${props.img}.svg`} className="" width="250px" height="250px" alt="..." />
             </div>

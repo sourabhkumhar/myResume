@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <div className='pt-5'>
-      This page is in under-development!
-    </div>
+    <>
+      
+    </>
   )
 }

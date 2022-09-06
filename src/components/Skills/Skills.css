@@ -1,0 +1,17 @@
+@keyframes headings {
+    0% {
+        top: 10px;
+        opacity: 0%;
+    }
+    
+    100% {
+        top: 0px;
+        opacity: 100%;
+    }
+}
+
+.divHeading {
+    position: relative;
+    animation-name: headings;
+    animation-duration: 1s;
+}
