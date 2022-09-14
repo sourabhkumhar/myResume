@@ -30,7 +30,7 @@ export default function Navbar() {
                                 <Link className={`navItem ${location.pathname === "/contact" ? "activeLi" : ""}`} aria-current="page" to="/contact">Contact Me</Link>
                             </li>
                             <li className="navBtn">
-                                <button className="btn d-r-btn">Download Resume</button>
+                                <a href={process.env.PUBLIC_URL + "/doc/SourabhKumhar_Resume.pdf"}><button className="btn d-r-btn">Download Resume</button></a>
                             </li>
                         </ul>
                     </div>
