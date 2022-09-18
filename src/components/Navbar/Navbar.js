@@ -27,7 +27,7 @@ export default function Navbar() {
                                 <Link className={`navItem ${location.pathname === "/skills" ? "activeLi" : ""}`} aria-current="page" to="/skills">My Skills</Link>
                             </li>
                             <li className="navList">
-                                <Link className={`navItem ${location.pathname === "/contact" ? "activeLi" : ""}`} aria-current="page" to="/contact">Contact Me</Link>
+                                <Link className={`navItem ${location.pathname === "/projects" ? "activeLi" : ""}`} aria-current="page" to="/projects">Projects</Link>
                             </li>
                             <li className="navBtn">
                                 <a href={process.env.PUBLIC_URL + "/doc/SourabhKumhar_Resume.pdf"}><button className="btn d-r-btn">Download Resume</button></a>

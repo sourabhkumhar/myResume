@@ -13,11 +13,14 @@ export default function Home() {
           <h2 className='subHeading'>( Web Developer )</h2>
           <p className='para'>A passionate individual who always thrives to work on end to end products which develop sustainable and highly scalable social and technical systems to create impact.</p>
 
-          <div className="d-flex justify-content-between w-50 pb-4 mt-4">
-            <Social site="gmail" gmail="dev.sourabhkumhar@gmail.com" />
-            <Social site="Linkedin" />
-            <Social site="Github" />
-            <Social site="Instagram" />
+          <div>
+            <h5 className='fw-bold mt-4 mb-3'>Contact Me:</h5>
+            <div className="d-flex justify-content-between w-50 pb-4">
+              <Social site="gmail" gmail="dev.sourabhkumhar@gmail.com" />
+              <Social site="Linkedin" />
+              <Social site="Github" />
+              <Social site="Instagram" />
+            </div>
           </div>
 
           <div className='mb-5'>

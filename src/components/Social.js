@@ -16,7 +16,7 @@ const Social = (props) => {
                 <img src={process.env.PUBLIC_URL + `/images/${site}.png`} width="35px" alt={site} />
             </a>}
 
-            {site === "gmail" && <a href={"mailto:" + gmail}>
+            {site === "gmail" && <a className='pe-3' href={"mailto:" + gmail}>
                 <img src={process.env.PUBLIC_URL + `/images/${site}.png`} width="35px" alt={site} />
             </a>}
         </>
