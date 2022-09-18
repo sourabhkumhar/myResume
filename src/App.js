@@ -8,7 +8,6 @@ import {
 
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
-import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
-          {/* <Route path="/contact" element={<Contact />}></Route> */}
         </Routes>
       </div>
 
