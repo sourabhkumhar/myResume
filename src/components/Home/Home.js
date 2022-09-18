@@ -14,10 +14,10 @@ export default function Home() {
           <p className='para'>A passionate individual who always thrives to work on end to end products which develop sustainable and highly scalable social and technical systems to create impact.</p>
 
           <div className="d-flex justify-content-between w-50 pb-4 mt-4">
-            <Social site="Instagram" />
+            <Social site="gmail" gmail="dev.sourabhkumhar@gmail.com" />
             <Social site="Linkedin" />
             <Social site="Github" />
-            <Social site="gmail" gmail="dev.sourabhkumhar@gmail.com" />
+            <Social site="Instagram" />
           </div>
 
           <div className='mb-5'>
