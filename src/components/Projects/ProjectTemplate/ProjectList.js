@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function ProjectList(props) {
-    const {id, name} = props
+    const {id, name, desc, github} = props
     return (
         <>
                 <h2 className="accordion-header" id="headingOne">
@@ -10,7 +10,10 @@ export default function ProjectList(props) {
                     </button>
                 </h2>
                 <div id={`open${id}`} className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div className="accordion-body">
+                        {desc}
+                        <a href={github}><img src={process.env.PUBLIC_URL + "/images/github.png"} width="20px" alt="" /></a>
+                    </div>
                 </div>
         </>
     )

@@ -11,13 +11,15 @@ export default function ProjectTemplate(props) {
             name: "iNotebook",
             link: "https://inotebook-coral.vercel.app/login",
             tags: ["MERN Stack"],
-            description: "This is a MERN stack site"
+            description: "This is a MERN stack site",
+            github: ""
         },
         {
             name: "PostMan Clone",
             link: "https://inotebook-coral.vercel.app/login",
             tags: ["HTML", "CSS", "JavaScript"],
-            description: "This is a MERN stack site"
+            description: "This is a MERN stack site",
+            github: ""
         }
     ]
 
@@ -25,7 +27,7 @@ export default function ProjectTemplate(props) {
     return (
         <>
             <div className="row">
-                <div className="col-md-6 mb-5">
+                <div className="col-lg-6 mb-5">
                     <div className="accordion accordion-flush shadow-lg" id="accordionFlushExample">
                         {/* Need to create map now */}
                         <div className="accordion-item">
@@ -37,7 +39,7 @@ export default function ProjectTemplate(props) {
                     </div>
                 </div>
 
-                <div className="smartphone col-md-6">
+                <div className="smartphone col-lg-6">
                     <div className="content">
                         <iframe title="iNotebook" src={mySite}></iframe>
                     </div>
