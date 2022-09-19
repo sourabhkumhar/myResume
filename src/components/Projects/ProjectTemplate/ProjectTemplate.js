@@ -22,9 +22,23 @@ export default function ProjectTemplate(props) {
             github: "https://github.com/sourabhkumhar/iNotebook"
         },
         {
+            name: "TextUtils",
+            link: "https://text-utils-beta.vercel.app/",
+            tags: "ReactJs | Bootstrap",
+            description: "[Need To Change] The iNotebook app's user journey starts from the registration process and after login, user can save their personal notes which will be kept in MongoDB. User can access their notes anytime and also update them.",
+            github: "https://github.com/sourabhkumhar/TextUtils"
+        },
+        {
+            name: "Tabe To JSON",
+            link: "https://sourabhkumhar.github.io/table-to-json/",
+            tags: "HTML | CSS | JavaScript",
+            description: "[Need To Change] The iNotebook app's user journey starts from the registration process and after login, user can save their personal notes which will be kept in MongoDB. User can access their notes anytime and also update them.",
+            github: "https://github.com/sourabhkumhar/table-to-json"
+        },
+        {
             name: "PostMan Clone",
             link: "https://sourabhkumhar.github.io/PostMan-Clone",
-            tags: "HTML | CSS | Javascript",
+            tags: "HTML | CSS | JavaScript",
             description: "This is the clone version of the PostMan App which is used to fetch API. Here, users can GET data from API links and also make a POST request and get a response in the Response Box.",
             github: "https://github.com/sourabhkumhar/PostMan-Clone"
         }
