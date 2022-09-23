@@ -43,7 +43,7 @@
   /* The screen (or content) of the device */
   .smartphone .content {
     width: 350px;
-    height: 520px;
+    height: 540px;
     margin-left: -12px;
     background: white;
   }

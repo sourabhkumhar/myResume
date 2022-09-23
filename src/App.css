@@ -26,6 +26,15 @@ nav {
     font-size: 30px;
 }
 
+::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #14213D;
+}
+
 @media only screen and (max-width: 990px) {
     .topPadding {
         padding-top: 90px;
@@ -36,7 +45,7 @@ nav {
     }
     
     .subHeading {
-        color: #14213D;
+        color: #090f1e;
     }
     
     .para {

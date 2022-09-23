@@ -58,7 +58,7 @@ export default function ProjectTemplate(props) {
                     </div>
                 </div>
 
-                <div className="smartphone col-lg-6">
+                <div className="smartphone col-lg-6 shadow-lg">
                     <div className="content">
                         <iframe title="iNotebook" src={mySite}></iframe>
                     </div>
