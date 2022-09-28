@@ -22,6 +22,13 @@ export default function ProjectTemplate(props) {
             github: "https://github.com/sourabhkumhar/iNotebook"
         },
         {
+            name: "Shopping Site",
+            link: "https://shopping-site-react.vercel.app/",
+            tags: "ReactJs | Bootstrap",
+            description: "[Need To Change] The iNotebook app's user journey starts from the registration process and after login, user can save their personal notes which will be kept in MongoDB. User can access their notes anytime and also update them.",
+            github: "https://github.com/sourabhkumhar/shopping-site"
+        },
+        {
             name: "TextUtils",
             link: "https://text-utils-beta.vercel.app/",
             tags: "ReactJs | Bootstrap",
