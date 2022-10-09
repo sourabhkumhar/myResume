@@ -17,28 +17,28 @@
         "name": "Client Manager",
         "link": "https://client-manager-frontend.vercel.app/",
         "tags": "ReactJs | Bootstrap | CSS",
-        "description": "This is a front-end of Client Manager Site primarly focus on implement UI elements such as input controls, navigational components, and informational components.",
+        "description": "This is a front-end of the Client Manager Site that primarily focuses on implementing UI elements such as input controls, navigational components, and informational components.",
         "github": "https://github.com/sourabhkumhar/client-manager"
     },
     {
         "name": "Shopping Site",
         "link": "https://shopping-site-react.vercel.app/",
         "tags": "ReactJs | Bootstrap",
-        "description": "This is the front-end of shopping site which do some basic operations like, Add to Cart, Delete from cart, set quantity etc. It fetch products from Dummy Product API.",
+        "description": "This is the front end of the shopping site which does some basic operations like, Add Cart, Delete from carts, setting quantity, etc. It fetches products from Dummy Product API.",
         "github": "https://github.com/sourabhkumhar/shopping-site"
     },
     {
         "name": "TextUtils",
         "link": "https://text-utils-beta.vercel.app/",
         "tags": "ReactJs | Bootstrap",
-        "description": "This is text utility website used for modification of text. Like, converting text into UPPERCASE or lowercase or Capitalize Each Word Of String. It also remove extra-spaces and reverse the text. As this project is created only for learning, so I added features like Dynamic Theme and Dark mode.",
+        "description": "This is a text utility website used for the modification of the text. Like, as converting text into UPPERCASE or lowercase or Capitalize Each Word Of String. It also removes extra spaces and reverses the text. As this project is created only for learning, so I added features like Dynamic Theme and Dark mode.",
         "github": "https://github.com/sourabhkumhar/TextUtils"
     },
     {
         "name": "Table To JSON",
         "link": "https://sourabhkumhar.github.io/table-to-json/",
         "tags": "HTML | CSS | JavaScript",
-        "description": "This is a utility webpage used to convert table data into JSON. This is a basic and only takes Name , Phone Number and Email as input. No custom type of data is aloud, as of.",
+        "description": "This is a utility webpage used to convert table data into JSON. This is basic and only takes Name, Phone Number, and Email as input. No custom type of data is allowed, as of now.",
         "github": "https://github.com/sourabhkumhar/table-to-json"
     },
     {

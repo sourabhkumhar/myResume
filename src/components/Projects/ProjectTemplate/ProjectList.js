@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function ProjectList(props) {
-    const { id, name, desc, github, tags } = props;
+    const { id, name, desc, github, tags, link } = props;
     const badge = {
         background: "black",
         padding: "3px 6px",
@@ -26,6 +26,7 @@ export default function ProjectList(props) {
                     <div className='d-flex gap-2 mt-2'>
                         <span className='fw-bold'>Visit: </span>
                         <a rel="noreferrer" target="_blank" href={github}><img src={process.env.PUBLIC_URL + "/images/Github.png"} width="20px" height="20px" alt="" /></a>
+                        <a rel="noreferrer" target="_blank" href={link}><img src={process.env.PUBLIC_URL + "/images/website-link.svg"} width="20px" height="20px" alt="" /></a>
                     </div>
                 </div>
             </div>

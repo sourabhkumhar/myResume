@@ -13,7 +13,7 @@ export default function ProjectTemplate(props) {
                     <div className="accordion accordion-flush shadow-lg" id="accordionFlushExample">
                         {Projects.map((element, index) => {
                             return <div key={index} className="accordion-item" onClick={() => setMySite(element.link)} >
-                                <ProjectList id={index} name={element.name} tags={(element.tags)} desc={element.description} github={element.github} />
+                                <ProjectList id={index} name={element.name} tags={(element.tags)} desc={element.description} github={element.github} link={element.link} />
                             </div>
                         })}
                     </div>
