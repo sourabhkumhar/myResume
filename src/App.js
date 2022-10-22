@@ -1,16 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from 'react-router-dom';
 
-import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import { lazy, Suspense } from 'react';
 import Spinner from './UI/Spinner';
 
+const Home = lazy(() => import('./components/Home/Home'))
 const Skills = lazy(() => import('./components/Skills/Skills'))
 const Projects = lazy(() => import('./components/Projects/Projects'))
 
