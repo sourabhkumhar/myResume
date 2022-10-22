@@ -7,9 +7,12 @@ import {
 } from 'react-router-dom';
 
 import Home from './components/Home/Home';
-import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
-import Projects from './components/Projects/Projects';
+import { lazy, Suspense } from 'react';
+import Spinner from './UI/Spinner';
+
+const Skills = lazy(() => import('./components/Skills/Skills'))
+const Projects = lazy(() => import('./components/Projects/Projects'))
 
 function App() {
   return (
@@ -17,11 +20,13 @@ function App() {
       <Navbar />
 
       <div className="topPadding container">
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/projects" element={ <Projects /> }></Route>
-        </Routes>
+        <Suspense fallback={<Spinner />}>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/skills" element={<Skills />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+          </Routes>
+        </Suspense>
       </div>
 
       <Footer />

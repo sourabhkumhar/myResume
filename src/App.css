@@ -7,13 +7,15 @@ nav {
 }
 
 .heading {
-    font-family: Product Sans Bold;
+    font-family: Product Sans Regular;
+    font-weight: bold;
     font-size: 70px;
     color: #14213D;
 }
 
 .divHeading {
-    font-family: Product Sans Bold;
+    font-family: Product Sans Regular;
+    font-weight: bold;
     font-size: 50px;
     color: #14213D;
 }
@@ -34,6 +36,35 @@ nav {
 ::-webkit-scrollbar-thumb {
     background-color: #14213D;
 }
+
+/* Spinner */
+.loader-body {
+    display: flex;
+    height: calc(100vh - 250px);
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 @media only screen and (max-width: 990px) {
     .topPadding {
