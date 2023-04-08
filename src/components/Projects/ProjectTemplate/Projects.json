@@ -8,7 +8,7 @@
     },
     {
         "name": "BeatStore - Marketplace for Beats",
-        "link": "https://beatstore-sourabhkumhar.vercel.app/",
+        "link": "https://beatstore.in/",
         "tags": "NextJs | Tailwind CSS | MongoDB",
         "description": "This site is a online beats marketplace created using Next Js and Tailwind Css for frontend. And it has also some working functionalities like login, signup, reset password, change account details are created with in-build Node.js in Next js and data is stored using MongoDB Atlas."
     },
