@@ -7,6 +7,13 @@
         "github": "https://github.com/sourabhkumhar/myResume"
     },
     {
+        "name": "Sourabh Kumhar - Portfolio",
+        "link": "https://sourabhportfolio.vercel.app",
+        "tags": "Next.js | Tailwind | Framer Motion | React-Three",
+        "description": "This is my personal portfolio site, in which I'm showcasing my skill and providing details about me and my journey. This created for both - Personal Use and Learn animation",
+        "github": "https://github.com/sourabhkumhar/sourabhkumhar-portfolio"
+    },
+    {
         "name": "BeatStore - Marketplace for Beats",
         "link": "https://beatstore.in/",
         "tags": "NextJs | Tailwind CSS | MongoDB",
